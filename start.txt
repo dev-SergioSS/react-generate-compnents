@@ -1,0 +1,12 @@
+1) npm i -D generate-react-cli
+
+2) package.json
+
+ "scripts": {
+	"component": "generate-react component",
+	"page": "generate-react component --type=page"
+  },
+
+  "devDependencies": {
+    "generate-react-cli": "^7.3.0"
+  }
